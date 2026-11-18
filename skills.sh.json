@@ -14,7 +14,9 @@
         "unslop",
         "hallmark-styles",
         "learn-taste",
-        "logo-design"
+        "logo-design",
+        "design-md",
+        "ui-sdk-builder"
       ]
     },
     {
@@ -26,8 +28,10 @@
       ]
     },
     {
-      "title": "Browser & Web-to-MCP (On-Demand)",
+      "title": "Desktop & Browser Control (On-Demand)",
       "skills": [
+        "capy-desktop-control",
+        "browser-live-session",
         "obscura-browser",
         "pomerado-mcp"
       ]

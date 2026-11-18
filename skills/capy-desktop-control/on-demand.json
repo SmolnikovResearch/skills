@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Pinned agent-desktop v1.0.2 accessibility-tree driver for native desktop computer_use.",
+  "system_binaries": [
+    "agent-desktop"
+  ],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [
+    "CAPYAGENT_COMPUTER_USE_BACKEND",
+    "CAPYAGENT_AGENT_DESKTOP_CMD",
+    "CAPYAGENT_AGENT_DESKTOP_HOME"
+  ],
+  "system_install_hints": [
+    "export CAPYAGENT_COMPUTER_USE_BACKEND=agent-desktop",
+    "Download pinned agent-desktop v1.0.2 binary and verify SHA-256 with desktop_control.py verify"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Generate and audit project-specific DESIGN.md rules to eliminate AI SaaS layout slop.",
+  "system_binaries": [],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [],
+  "system_install_hints": [
+    "No external dependencies required; run design_md_tool.py generate or audit directly."
+  ]
+}

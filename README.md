@@ -1,12 +1,12 @@
 # Smolnikov Research Agent Skills
 
-Open-source collection of **15 clean-room AI agent skills** by **Smolnikov Research Center**, published under the MIT license.
+Open-source collection of **19 clean-room AI agent skills** by **Smolnikov Research Center**, published under the MIT license.
 
 Every skill is available both in this unified catalog repository and as an **independent dedicated repository** under [`@SmolnikovResearch`](https://github.com/SmolnikovResearch), each shipping with compact YAML frontmatter and explicit **lazy on-demand dependency manifests** (`on-demand.json`, `auto_load_on_startup: false`).
 
 ---
 
-## Catalog (15 Standalone Repositories)
+## Catalog (19 Standalone Repositories)
 
 ### Security & Auditing
 | Skill | Standalone Repo | Purpose | On-Demand Dependencies |
@@ -21,6 +21,8 @@ Every skill is available both in this unified catalog repository and as an **ind
 | [`hallmark-styles`](skills/hallmark-styles/SKILL.md) | [SmolnikovResearch/hallmark-styles](https://github.com/SmolnikovResearch/hallmark-styles) | 12 curated non-generic UI design systems and semantic token palettes | Reference catalog |
 | [`learn-taste`](skills/learn-taste/SKILL.md) | [SmolnikovResearch/learn-taste](https://github.com/SmolnikovResearch/learn-taste) | Extracts CSS variables, typography, radii, and motion curves into a reusable taste profile | Pure Python |
 | [`logo-design`](skills/logo-design/SKILL.md) | [SmolnikovResearch/logo-design](https://github.com/SmolnikovResearch/logo-design) | Optical-grid SVG mark crafting and vector accessibility/safety validator | Pure Python XML |
+| [`design-md`](skills/design-md/SKILL.md) | [SmolnikovResearch/design-md](https://github.com/SmolnikovResearch/design-md) | Project `DESIGN.md` brand contract generator and AI-slop layout auditor | Pure Python |
+| [`ui-sdk-builder`](skills/ui-sdk-builder/SKILL.md) | [SmolnikovResearch/ui-sdk-builder](https://github.com/SmolnikovResearch/ui-sdk-builder) | Accessible WAI-ARIA agent UI primitives (`menu`, `form`, `approval-card`, `table`) | Pure Python |
 
 ### Video & Audio Production
 | Skill | Standalone Repo | Purpose | On-Demand Dependencies |
@@ -29,9 +31,11 @@ Every skill is available both in this unified catalog repository and as an **ind
 | [`promo-video-maker`](skills/promo-video-maker/SKILL.md) | [SmolnikovResearch/promo-video-maker](https://github.com/SmolnikovResearch/promo-video-maker) | Beat-synced `1920x1080` launch promo video assembly from storyboard JSON | `ffmpeg`, `pillow` |
 | [`audio-beat-master`](skills/audio-beat-master/SKILL.md) | [SmolnikovResearch/audio-beat-master](https://github.com/SmolnikovResearch/audio-beat-master) | Harmonic beat-grid synthesis, sub-120 Hz onset detection, and EBU R128 mastering | `ffmpeg` |
 
-### Browser & Web-to-MCP (On-Demand)
+### Desktop & Browser Control (On-Demand)
 | Skill | Standalone Repo | Purpose | On-Demand Dependencies |
 |---|---|---|---|
+| [`capy-desktop-control`](skills/capy-desktop-control/SKILL.md) | [SmolnikovResearch/capy-desktop-control](https://github.com/SmolnikovResearch/capy-desktop-control) | Native macOS/Windows/Linux accessibility-tree control via pinned `agent-desktop` v1.0.2 | `agent-desktop` v1.0.2 (SHA-256 verified) |
+| [`browser-live-session`](skills/browser-live-session/SKILL.md) | [SmolnikovResearch/browser-live-session](https://github.com/SmolnikovResearch/browser-live-session) | Live signed-in browser tabs in isolated group with user lease approval & human gate handoff | `capy-browser-relay` (`127.0.0.1:18791`) |
 | [`obscura-browser`](skills/obscura-browser/SKILL.md) | [SmolnikovResearch/obscura-browser](https://github.com/SmolnikovResearch/obscura-browser) | Low-RAM stealth headless browser runner with explicit launch guard | `obscura` binary (`OBSCURA_BIN`) |
 | [`pomerado-mcp`](skills/pomerado-mcp/SKILL.md) | [SmolnikovResearch/pomerado-mcp](https://github.com/SmolnikovResearch/pomerado-mcp) | Convert HAR traces and authenticated web flows into typed MCP server stubs | `pomerado` (`POMERADO_BIN`) |
 
@@ -81,7 +85,7 @@ python3 scripts/optional_skill_bootstrap.py voxcpm2-voice --install --models
 
 ## Validation & Security
 
-All 14 skills and helper scripts follow clean-room authoring rules (no embedded secrets, zero hidden Unicode/HTML/URL exfil patterns, valid frontmatter <= 60 chars, syntax-checked Python helpers):
+All 19 skills and helper scripts follow clean-room authoring rules (no embedded secrets, zero hidden Unicode/HTML/URL exfil patterns, valid frontmatter <= 60 chars, syntax-checked Python helpers):
 
 ```bash
 python3 scripts/validate_skills.py

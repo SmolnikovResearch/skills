@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Local browser relay workflow for signed-in tabs with user lease approval and human gate handoff.",
+  "system_binaries": [],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [
+    "CAPY_BROWSER_RELAY_URL",
+    "CAPY_BROWSER_RELAY_TOKEN"
+  ],
+  "system_install_hints": [
+    "Start capy-browser-relay on 127.0.0.1:18791 and load the MV3 extension in Chrome/Chromium."
+  ]
+}

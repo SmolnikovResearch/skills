@@ -16,7 +16,7 @@ MACHINE_PATH_RE = re.compile(r"(?:/home/(?!runner\b)[a-z0-9_-]+/|/root/|[A-Z]:\\
 
 def validate_repo() -> None:
     skill_dirs = sorted(p.parent for p in (ROOT / "skills").glob("*/SKILL.md"))
-    assert len(skill_dirs) == 15, f"Expected 15 skills, found {len(skill_dirs)}"
+    assert len(skill_dirs) == 19, f"Expected 19 skills, found {len(skill_dirs)}"
 
     groupings = json.loads((ROOT / "skills.sh.json").read_text(encoding="utf-8"))["groupings"]
     grouped_names = {name for g in groupings for name in g["skills"]}
