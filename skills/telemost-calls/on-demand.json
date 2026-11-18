@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Join Yandex Telemost, Zoom, Webex, and Google Meet calls and extract transcripts.",
+  "system_binaries": [
+    "ffmpeg"
+  ],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [
+    "MEETSCRIBE_URL",
+    "MEETSCRIBE_TOKEN"
+  ],
+  "system_install_hints": [
+    "Optional remote recorder: export MEETSCRIBE_URL=http://127.0.0.1:8000",
+    "Optional local zero-key MCP: install optional-mcps/meeting_recorder (pulseaudio xvfb ffmpeg)"
+  ]
+}

@@ -1,12 +1,12 @@
 # Smolnikov Research Agent Skills
 
-Open-source collection of **14 clean-room AI agent skills** by **Smolnikov Research Center**, published under the MIT license.
+Open-source collection of **15 clean-room AI agent skills** by **Smolnikov Research Center**, published under the MIT license.
 
 Every skill is available both in this unified catalog repository and as an **independent dedicated repository** under [`@SmolnikovResearch`](https://github.com/SmolnikovResearch), each shipping with compact YAML frontmatter and explicit **lazy on-demand dependency manifests** (`on-demand.json`, `auto_load_on_startup: false`).
 
 ---
 
-## Catalog (14 Standalone Repositories)
+## Catalog (15 Standalone Repositories)
 
 ### Security & Auditing
 | Skill | Standalone Repo | Purpose | On-Demand Dependencies |
@@ -34,6 +34,11 @@ Every skill is available both in this unified catalog repository and as an **ind
 |---|---|---|---|
 | [`obscura-browser`](skills/obscura-browser/SKILL.md) | [SmolnikovResearch/obscura-browser](https://github.com/SmolnikovResearch/obscura-browser) | Low-RAM stealth headless browser runner with explicit launch guard | `obscura` binary (`OBSCURA_BIN`) |
 | [`pomerado-mcp`](skills/pomerado-mcp/SKILL.md) | [SmolnikovResearch/pomerado-mcp](https://github.com/SmolnikovResearch/pomerado-mcp) | Convert HAR traces and authenticated web flows into typed MCP server stubs | `pomerado` (`POMERADO_BIN`) |
+
+### Calls & Meetings (Telemost / MeetScribe)
+| Skill | Standalone Repo | Purpose | On-Demand Dependencies |
+|---|---|---|---|
+| [`telemost-calls`](skills/telemost-calls/SKILL.md) | [SmolnikovResearch/telemost-calls](https://github.com/SmolnikovResearch/telemost-calls) | Join Yandex Telemost, Zoom, Webex & Google Meet calls and extract transcripts | `MEETSCRIBE_URL` or `meeting_recorder` MCP (`ffmpeg`) |
 
 ### Generative Media (On-Demand)
 | Skill | Standalone Repo | Purpose | On-Demand Dependencies |
