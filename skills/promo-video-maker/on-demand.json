@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Storyboard 1080p promo video renderer using Pillow + FFmpeg.",
+  "system_binaries": [
+    "ffmpeg"
+  ],
+  "python_packages": [
+    {
+      "import": "PIL",
+      "pip": "pillow"
+    }
+  ],
+  "models": []
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Two-phase codebase audit and release bundle hardening.",
+  "system_binaries": [],
+  "python_packages": [],
+  "models": []
+}

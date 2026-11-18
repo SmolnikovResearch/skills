@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Low-RAM (~30 MB) stealth headless browser launched strictly on demand.",
+  "system_binaries": [
+    "obscura"
+  ],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [
+    "OBSCURA_BIN"
+  ],
+  "system_install_hints": [
+    "Install obscura binary or export OBSCURA_BIN=/path/to/obscura"
+  ]
+}

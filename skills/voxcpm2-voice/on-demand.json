@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "On-demand 48kHz voice cloning and TTS with VoxCPM2.",
+  "system_binaries": [],
+  "python_packages": [
+    "torch",
+    "soundfile"
+  ],
+  "models": [
+    {
+      "id": "voxcpm2",
+      "repo": "OpenBMB/VoxCPM2",
+      "env_endpoint": "VOXCPM2_ENDPOINT"
+    }
+  ]
+}

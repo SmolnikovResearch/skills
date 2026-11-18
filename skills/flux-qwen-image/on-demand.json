@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "On-demand image generation via FLUX Klein or Qwen-Image.",
+  "system_binaries": [],
+  "python_packages": [
+    "torch",
+    "diffusers",
+    "transformers"
+  ],
+  "models": [
+    {
+      "id": "flux-qwen-image",
+      "repo": "Qwen/Qwen-Image",
+      "env_endpoint": "IMAGE_GEN_ENDPOINT"
+    }
+  ]
+}

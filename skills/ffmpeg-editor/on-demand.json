@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Deterministic FFmpeg video/audio cut, cover and -16 LUFS mux pipeline.",
+  "system_binaries": [
+    "ffmpeg",
+    "ffprobe"
+  ],
+  "python_packages": [],
+  "models": [],
+  "system_install_hints": [
+    "sudo apt install -y ffmpeg  # or brew install ffmpeg"
+  ]
+}

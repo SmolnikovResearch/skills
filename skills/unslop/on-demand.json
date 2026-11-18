@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Static anti-slop auditor for UI TSX/CSS codebases.",
+  "system_binaries": [],
+  "python_packages": [],
+  "models": []
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Defensive static bundle & symbol hygiene inspection on demand.",
+  "system_binaries": [],
+  "python_packages": [],
+  "models": [],
+  "system_install_hints": [
+    "Optional: install radare2 or ego-lite for deeper ELF/Mach-O disassembly"
+  ]
+}

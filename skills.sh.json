@@ -1,0 +1,44 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Security & Reversing",
+      "skills": [
+        "security-audit",
+        "ego-lite-reversing"
+      ]
+    },
+    {
+      "title": "Design & Anti-Slop Craft",
+      "skills": [
+        "unslop",
+        "hallmark-styles",
+        "learn-taste",
+        "logo-design"
+      ]
+    },
+    {
+      "title": "Video & Audio Production",
+      "skills": [
+        "ffmpeg-editor",
+        "promo-video-maker",
+        "audio-beat-master"
+      ]
+    },
+    {
+      "title": "Browser & Web-to-MCP (On-Demand)",
+      "skills": [
+        "obscura-browser",
+        "pomerado-mcp"
+      ]
+    },
+    {
+      "title": "Generative Media (On-Demand)",
+      "skills": [
+        "voxcpm2-voice",
+        "flux-qwen-image",
+        "qwen-livetranslate"
+      ]
+    }
+  ]
+}

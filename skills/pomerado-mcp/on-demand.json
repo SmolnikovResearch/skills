@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "Convert captured HAR/session web flows into typed MCP server definitions.",
+  "system_binaries": [
+    "pomerado"
+  ],
+  "python_packages": [],
+  "models": [],
+  "env_vars": [
+    "POMERADO_BIN"
+  ],
+  "system_install_hints": [
+    "Install pomerado CLI or export POMERADO_BIN=/path/to/pomerado"
+  ]
+}

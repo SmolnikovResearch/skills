@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "auto_load_on_startup": false,
+  "summary": "On-demand live speech/video stream translation.",
+  "system_binaries": [
+    "ffmpeg"
+  ],
+  "python_packages": [
+    "torch",
+    "transformers"
+  ],
+  "models": [
+    {
+      "id": "qwen-livetranslate",
+      "repo": "Qwen/Qwen3-Omni",
+      "env_endpoint": "QWEN_LIVETRANSLATE_ENDPOINT"
+    }
+  ]
+}
